@@ -1,0 +1,7 @@
+---
+- name: SF ansible tasks - deploy
+  hosts: all
+  become: true
+
+  roles:
+    - common
